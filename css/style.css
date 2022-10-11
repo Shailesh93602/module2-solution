@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.column {
+    background-color: rgb(83 83 98 / 68%);
+    margin-left: 5px;
+    width: 40%;
+    height: 160px;
+    border: solid black;
+    margin: 1%;
+    float: left;
+}
+
+#chi {
+    background-color: rgb(196 110 110);
+}
+
+#bee {
+    background-color: rgba(128, 0, 0, 0.683);
+}
+
+#sus {
+    background-color: rgb(195 188 141);
+}
+
+h3 {
+    float: right;
+    top: 0;
+    right: 0;
+    border: 2px solid black;
+}
+
+@media screen and (min-width:992px) {
+    .column {
+        width: 30%;
+    }
+
+    .column {
+        height: 20vh;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+    .column1,
+    .column2 {
+        width: 45vw;
+        height: 30vh;
+    }
+
+    .column3 {
+        width: 92vw;
+    }
+}
+
+@media (max-width:767px) {
+    .column {
+        width: 97%;
+        height: 20vh;
+    }
+}
